@@ -1,8 +1,13 @@
 const mongoose = require("mongoose");
+require("dotenv").config();  // Import and configure dotenv
 
 const connectToMongoDB = async () => {
   try {
-    await mongoose.connect("mongodb://localhost:27017/note_app", {
+    const dbUrl = process.env.MONGODB_URL;  // Get the MongoDB URL from the .env file
+    if (!dbUrl) {
+      throw new Error("MONGODB_URL is not defined in .env file");
+    }
+    await mongoose.connect(dbUrl, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
