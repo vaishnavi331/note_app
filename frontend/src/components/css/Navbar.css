@@ -1,0 +1,25 @@
+.navbar{
+    background-color: rgb(13, 98, 120);
+}
+
+.noteapp{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.searchbar{
+background-color: white;
+width: 40%;
+}
+
+.username{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.logoutbutton{
+    background-color: white;
+    color: rgb(13, 98, 120);
+    font-weight: 600;
+}

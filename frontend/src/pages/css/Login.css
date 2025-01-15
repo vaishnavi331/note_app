@@ -1,0 +1,24 @@
+.img-logo
+{
+    position: relative;
+    height: 10px;
+    width: 50px;
+}
+
+h2{
+    color: rgb(49, 135, 169);
+    text-transform: uppercase;
+}
+
+.signupbutton{
+    background-color:  rgb(49, 135, 169);
+}
+
+label{
+    color: black;
+    font-weight: 600;
+}
+
+p .loginlink{
+color:  rgb(49, 135, 169);
+}
